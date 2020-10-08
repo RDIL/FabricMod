@@ -1,0 +1,2 @@
+# FabricMod
+Fabric mod template.

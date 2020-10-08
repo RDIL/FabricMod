@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "rocks.rdil.mod.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "verbose": true
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "fabricmod",
+  "version": "${version}",
+  "name": "FabricMod",
+  "description": "Fabric example mod!",
+  "authors": [
+    "Reece Dunham"
+  ],
+  "contact": {
+    "homepage": "https://example.com/",
+    "sources": "https://github.com/RDIL/FabricMod/"
+  },
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "rocks.rdil.mod.ModMain"
+    ]
+  },
+  "mixins": [
+    "fabricmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "minecraft": "1.16.3"
+  }
+}
